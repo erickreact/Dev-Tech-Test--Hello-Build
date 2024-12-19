@@ -1,0 +1,105 @@
+.dashboard-container {
+	font-family: Arial, sans-serif;
+	color: #333;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 100px;
+	background-color: #f9f9f9;
+	border-radius: 0px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-container h1,
+.dashboard-container h2 {
+	color: #7b65df;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.button-primary {
+	display: inline-block;
+	margin: 20px 0;
+	padding: 10px 20px;
+	background-color: #7b65df;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.button-primary:hover {
+	background-color: #024e9b;
+}
+
+.loading-message {
+	font-size: 16px;
+	color: #0366d6;
+	text-align: center;
+}
+
+.error-message {
+	font-size: 16px;
+	color: #d9534f;
+	text-align: center;
+}
+
+.dashboard-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
+
+.repositories-container {
+	background-color: white;
+	padding: 15px;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	width: 100%;
+	max-width: 900px;
+}
+
+.repositories-container ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.repositories-container li {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	background-color: #f9f9f9;
+}
+
+.repositories-container li:hover {
+	background-color: #f4f4f4;
+}
+
+.repositories-container li .repo-info {
+	flex: 1;
+}
+
+.repositories-container li strong {
+	color: #0366d6;
+	font-size: 16px;
+}
+
+.repositories-container .add-button {
+	background-color: #28a745;
+	border: none;
+	color: white;
+	padding: 8px 12px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.repositories-container .add-button:hover {
+	background-color: #218838;
+}
